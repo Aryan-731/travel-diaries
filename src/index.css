@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-deep text-warm font-sans antialiased; }
+:focus-visible { outline: 2px solid #a8c4d0; outline-offset: 3px; }
+.glass { background: rgba(244,239,230,.07); backdrop-filter: blur(14px); border: 1px solid rgba(244,239,230,.12); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
