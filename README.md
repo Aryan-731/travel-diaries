@@ -1,6 +1,6 @@
 # Aryan Raj | Travel Diaries
 
-open link :- Aryan-731/e-com-website
+open link :- https://aryan-typ.netlify.app/
 
 React + Vite + Tailwind CSS + Framer Motion + React Router.
 
