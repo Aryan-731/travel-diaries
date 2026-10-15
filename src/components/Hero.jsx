@@ -14,7 +14,7 @@ export default function Hero() {
     <section ref={ref} className="relative h-screen min-h-[640px] overflow-hidden bg-gradient-to-b from-[#26323d] via-[#46586a] to-[#d9a98a]/70">
       {/* Your hero photo (public/photos/hero/me.jpg) sits behind everything */}
       <motion.div style={{ y: far }} className="absolute inset-0">
-        <Photo silent src={profile.heroPhoto} alt="Aryan Raj at a mountain viewpoint" className="h-full w-full object-cover" />
+        <Photo silent src={profile.heroPhoto} alt="Aryan Raj at a mountain viewpoint" className="h-full w-full object-cover object-[50%_30%]" />
       </motion.div>
       {/* Layered mountain silhouettes for parallax depth */}
       <motion.svg style={{ y: mid }} viewBox="0 0 1440 400" preserveAspectRatio="none" className="absolute bottom-0 h-[45%] w-full">
